@@ -1,0 +1,10 @@
+<h1> Welcome to the game <%=@name%>!</h1>
+
+<h3 id="Instructions">You are playing against the computer.</h3> 
+<h4>Choose your weapon:</h4><br>
+
+<form action="/draw" method="POST">
+  <input type="submit" name="weapon" value="Rock">
+  <input type="submit" name="weapon" value="Paper">
+  <input type="submit" name="weapon" value="Scissors">
+</form>
